@@ -2,6 +2,8 @@
 
 This document explains how the [BotBly](https://botbly.com) chat widget is added to a React+Vite website, which options are used to customize it, and how to run the project locally.
 
+## Live demo: [Willow Creek Medical Group](https://willowcreekmedicalgroup.vercel.app/)
+
 ## What is included
 
 * A small loader component that injects the BotBly widget script and creates the widget once
@@ -142,3 +144,4 @@ Important
 * If you see multiple launchers, ensure `BotblyWidget` is rendered only once
 * If the script fails to load, verify `VITE_BOTBLY_WIDGET_URL` and check the network request in the browser dev tools
 * If TypeScript reports `window.botblyWidget` as unknown, confirm `src/types/botbly.d.ts` is included by your `tsconfig.json` and restart the dev server
+
